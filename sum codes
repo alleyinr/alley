@@ -1,0 +1,429 @@
+for html 
+LANGUAGE <HTML lang="ar or fr or en it depends on which language u gonna choose">
+
+direction of writing <html dir=" rtl for right to left" " left to right write ltr">
+
+to add arabic writing write inside HEAD  <meta charset="utf-8">
+
+POINTING
+ <!-- this meta is for the description  -->
+     <meta name="description" content="this our free learning tools, skills,books..."/>
+use <ul> if u wanna add pointings lines nd on every line add <li> nd u can change the type 
+using type="square" "circle" or anythingu want  nd put this after <ul type="...."
+use <ol> instead of <ul> if u wanna do the same thing but puting numbers instead of pointing 
+use <ol type="A" "I" "a" "i"> to change it it from numbers to... nd u can use <ol start="nd put here 
+the number or the letter u wanna start from it"
+the linesuse <dl> onsread of <ul> to do the same thig bt use <dt> and <dd>  inside  insted of <li> 
+use <dt> to add a text which is before <dd> <ith some spaces
+using CSS u can change the background and color of the text on on <style> inside ur <head>
+like this <style>
+li{ background: color
+margin: 1px
+padding: 10 px
+color:white
+}
+
+<ht/> to add a line
+<span> TO put it on the same line
+<label>
+<div>to start the writing on an other line
+<i> diagonal
+<em> diagonal
+<sup> up
+<sub> text down
+<b>darker
+<ins> specify
+<del> cross off
+<mark>  mark with colors
+<small> make it samller
+<strong> important text
+<p> fot paragraphs
+<adress> /
+<code> /
+<dfn> /
+<br> to start on a new line 
+<bdi> if uwant write in a diffrent language than ur main language u can put it inside an element and inside 
+it write wht u wanna write so it can shows in order
+code " &nbsp;" to much spaces between words on your paragraphs nd every &nbsp; is = 1 space
+
+
+<main>the main of ur website inside it u candd article elementt or section
+<section> 
+<header>wht u wanna put on the head of ur website
+<nav>شريط التنقل
+<footer> wht u wanna put on the end of ur website
+<article>
+<aside> a coté to add publicities ir thngs like 
+
+ADD DIRECT WEBSITES
+<a> is for adding a ling image as button that can drives u to whtever uchoose like
+ <a href=" the link that u choose or the number u put in"> than here u write
+  the text likeclisck here to visiste our website than close it with </a>
+  u can add to ue <a> element and inside it after HREF target="_blank" than close ur opening
+   A element > things so the link will be opened on a new window
+   inside ur HREF u can put a name of file which can drive us to 
+   the file must be on ur code page as a diffrent window and on the same file like the exemple at
+    index.html
+    u can guide the visitor to ur email or aphone number or any eamil u want using (A) element like 
+    <a href="mailto:blahblahblahGOTTCHU@gmail.com" > </a>
+    <a href="tel::06516454465" > </a>
+    to move from a placeto an other the same page wih a click
+    u can use it like this 
+      <h1 id="h2" style="height: 700px;background-color: olive;" > class numbre one 
+         <a href="#h1" > <br> go class number 2</a>
+      </h1>
+      <h1 id="h1" style="height: 700px;background-color: palevioletred;" >  class num 2
+         <a href="#h2" > <br>back to class number one </a> 
+      </h1>
+ u give your place an id like a name like this ... id="abc"
+ than on the place u wanna move from it u ad to ur A ELEMENT ND U NEED TO ADD A # TO IT href="#abc" and give it a pseudo like 
+ click here to go to ur "abc" 
+PUT AN IMAGE
+ to put an image to ur website u need to do this
+ <img src="u put here the source of the image as a link or an image direct but to do the last one u need  
+ to put the image on the  same folder of ur code work" u can after that controt the width and the height
+ like this width="number%" height="number%" than close ur img element  /> u can put ur img insinde an A
+  ELEMENT
+ so it can drives to website or the placz u choose directly when press the image
+ u can also ads Alt="nlah blah" in case y want to gice ur image a description in case the user couldent get
+ the image
+CREATE A TABLE
+to create a table u nead to use <tabel> </tabel> and inside it u put <tr> </tr> to creat it one line
+and inside the line u need to put <td> </td> or <th> </th> to add a colomne inside the line the diffrence
+btween th and td is that <th> write the text darker than <td>
+exemple:
+ <table>
+    <tr> line num one 
+      <th> columne num 1    </th>
+      <th> columne nub 2    </th>
+      <th> columne num 3    </th>
+    </tr>
+    <tr> line num 2 
+      <th> columne num 1    </th>
+      <th> columne nub 2    </th>
+      <th> columne num 3    </th>
+    </tr>
+    <tr> line num 3
+      <th> columne num 1    </th>
+      <th> columne nub 2    </th>
+      <th> columne num 3    </th>
+    </tr>
+ </table>
+ as u see after checking ur website there is no lines to separate the columns and the lines
+ to add the border u need to add border="" inside <tr> 
+ if u want a columne to take more than one place u need to add colspan=" the num of the places" inside
+  ur <td> 
+  u can do the same thing but this time adding line to each others using rowspan="the num of the lines"
+  inside ur  <td>
+   u can use <thead> for the beggeining
+   <tbody> for the body
+   <tfoot>  for the end ..u out all of these elements after <tr> 
+   and u can put anything u want inside ur <th> <td> elements
+
+    AUDIO
+   like this <audio src="Adele - Someone Like You(MP3_160K).mp3" controls , autoplay ,loop preload="none or metadata or auto"></audio>
+   u add controls so the song shows
+   u add autoplay so as time as the visitor visits the website the song starts
+   u add loop so the song be repeated by itself
+   u add preload so the song loads it self before u click at it as same as it happnes on youtube and u write auto means
+   if speed of the internet is low the song wont be loaded by it self nd if the internet is ok
+   it gonna loadednone mean no autoload
+   meatadata means autuload
+
+   VIDEO
+   like this  <video poster="houssem.jbg" src="Facebook 2786130554748997(360p).mp4" controls preload="auto"> </video>
+   poster for the background of the video befote it starts
+   src for the source link or from one of ur files
+   preload foor loading the video when u enter the web site and u can use metadata or none or auto for it
+   controls is obligated to be on the video element 
+
+   PDF
+   use <embed/> knowing its a self closing element
+   like this 
+    <embed src="الرجل المخيف.pdf" width="100%" height="1000"/>
+    the file must be on PDF
+    u can put also on ur embed element a link of website si it can shows on ur 
+    websit puting the link inside the src=""
+
+    YOUTUBE VIDEO ON WEBSITE 
+    to do it u need to go the the video thn 
+    click share 
+    integré
+    than copy the <ifram... inside ur body after avtivatig sum options
+    it will be like this 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HP00Dm-Ipgo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    to remove the suggections video that show when u pause the video u need to put ?rel=0 in the end of the
+    link of ur video like this
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HP00Dm-Ipgo?rel=0" frameborder="0" allow="accelerometer; autoplay;
+     clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     u can change the width or the height but u always need to change them together so they can be good to see
+     to do that u need to do 
+     change the height thn the value u changed it to do 
+     new width=new height * 0.5625
+
+     u can base the files of ur websites from another websit like 000webhost so u can creat ur website normally 
+     using this on yr head element <base="the link where u oploaded ur files " />
+
+     DETAILS AND SUMMARY
+     like this  <details style="background: brown ;font-weight: bold; color: cornsilk; padding: 20px;">
+<summary style="padding:10px; border: 2px solid white;">
+    click here
+</summary>
+now theres also this 
+     </details>
+     inside ur summary element u write wht u want to be showed
+     inside ur details element u write wht u want to be sowed after clicking on wht u have wroten on ur 
+     summary element
+
+     BUTTONS
+     like this  
+    <button type="button" style="width:400;">test button </button>
+</body>
+<form>
+     email : <input type="text" name="email"/>
+    password <input type="text" name="password"/>
+<button type="reset" >reset</button>
+<button type="submit">submit </button>  </form>
+to a simple button u need to write a button element adding style="button" u can put the button type inside an <a> 
+element so it can drives u to it as soon as u click at the button 
+like this 
+<a href="www.youtube.com" > 
+<button style="button" > youtube </button>
+</a>
+  u can add a reset and submit nd they re both a type of the button element and u need to put it all on 
+  a form element and u need to put an input element so u can write
+  <form>
+  <input type="text" name="email"/>
+  <input type="reset" name=password"/>
+  <button type="reset" >reset </button>
+  <button type="submit" >submitsubmit </button> 
+  </form>
+
+  INPUT ELEMENT
+   <input type="text" placeholder="blah blah" name="name" minlength="7" maxlength="100" required/> <br>
+  <input type="email" placeholder="email" value="exemple@name.com"/><br>
+  <input type="password" placeholder="write ur password" value="12345678"/><br>
+  <input type="tel" placeholder="write ur number" value="06..."/><br>
+  <input min="1950" max="2005" type="date" value="2000-01-01" /><br>
+  <button type="submit">send</button>
+   </form>
+  to add a name and a value or required to ur input u need to put it inside a form element
+
+  OPTIONS 
+  u need 2 elements select and option 
+  u do it to creat options the user can choose 
+  like this 
+    <form>
+       
+   <select name="lang" required> 
+
+    <option value=""> choose</option>
+    <option value="this one"> this one </option>
+    <option value=" this one a"> this one a  </option>
+    <option disabled value="this one b"> this one b</option>
+    </select>
+    <button type="submit" >send</button>
+</form>
+
+
+FULL FORMULA
+   <form>
+       <table>
+           <tr>
+          <td>  <label>gender</label></td>
+          <td><select name="lang" required> 
+                 <option value=""> choose</option>
+                 <option value="girl"> girl </option>
+                 <option value=" boy">boy  </option>
+                 <option value="else"> else</option>
+              </select> </td> 
+           </tr>
+           <tr>
+               <td> email</td>  <td> <input type="email" placeholder="email" value="email" required>   </td>> 
+           </tr>
+           <tr> <td> password </td>
+                <td> <input type="password" required placeholder="password" value="password" ></td></tr>
+
+   <tr><td>   <button type="submit" >send</button></td></tr>
+</table>
+</form>
+
+input RADIO
+to create direct options u need to a name to ur input element so the user can only choose one option u can also use
+autofocus 
+required
+checked
+disable
+<form>
+<h3>choose ur gender</h3>
+<label>male </label>
+<input type="radio" name="gender" value="male" />
+<label>female </label>
+<input type="radio" name="gender" value="female"/>
+<button type="submit" > send</button>
+</form>
+
+input FILE 
+<input type="file" accept="image/" />
+u do it to add files so the user can put them u put accept for the acceptable type of file 
+input url
+input color
+input date week month 
+input number
+search
+
+input hidden 
+u ccan put a method on ur form element so the info u send dont show up on the url place using this method="post"
+if u want them to be showed u do method="get"
+input checkbox 
+u can add auto check usin checked 
+u add this to answer a question like this are u married <input type="checkbox" name="married value="hes married"/>
+ 
+ when u do ur form type and inside it a submit button u can add on ur 
+ form element a place to go to as soon as u submit ur files usong this <form action="www.youtube" >
+
+ input range 
+ <input type="range" max="200" min="0"/>
+
+ TEXTAREA
+ just like the input type="text" but its larger u can write a paraghraph on it 
+
+ IFRAM 
+ u can add a link in ur website like a youtube video or a website to ur website but only if the website 
+ got an https form not an http 
+ <ifram height width src="link" >
+ u can add allowfullscreen
+ sandbox (this is for dialllowing scropting and forms and a lot of other things u can use it
+ than use for exmpl sanbox="allow-forms"...)
+
+ <PRE> </PRE>
+ almost like <p> element just it saves the shape and the way u write it :spaces. lines...
+
+ METER
+ almost like a batery 
+  <meter value="100" max="100" min="0" low="15" high="70" optimum="100" > </meter>
+
+IFRAM MAP 
+to add a map to ur website u need to go to google map search for the olace u looking for than click at share than 
+embed the map and copy the ifram  link 
+
+sometime u want to add an image or file which is not on the same folder of ur html file
+if the folder is on an other folder at all u need to to this
+<img src="../nameofimamge.png"/>
+or if its on afolder wich is on ur html folder do this
+<img src="nameoffolder/nameofimage.png"/>
+
+WEBSITE FORM
+1 <header >
+
+2 <nav> 
+
+3<main > article . section
+
+4 <footer> 
+ its bettter if u put themm all inside <div> so the web sit shows on the middle
+
+ <FIELDSET> <LEGEND>
+ <feildset> <legend> cantact us <bdi> راسلونا </bdi> </legend>
+ <h3> email : blahblah@gmail.com</h3>
+ <h3>phone number : 06164245515 </h3>
+  </feildset>
+  try on an html file so u now how it is
+  ----cantact us-----------------------------------------------------
+  /                                                                  /
+  /     email : blahblah@gmail.com                                   /
+  /     phone number : 06164245515                                   /
+  /                                                                  /
+  /                                                                  /
+  -------------------------------------------------------------------
+
+  ID CLASS 
+  u can give ur element an id so u can use it easely with other languages like CSS
+  and go to style element on ur head element and write  #theidofurelement{ and here u write the css codees
+  }
+  with CLASS u dan give ur element mote than one name like this and u can use the smae name over and over
+  with ur element like this 
+  <p class="namenumber2 namenumberone"> hi </p>
+  <h1 class="namenumber2 namenumberone"> hi again </p>
+
+  LOGO OF THE WEBSITE
+  u need to put themm all on ur hezd element
+  <link rel="icon" href="nameofimage"/>
+  <link rel="shortcut" href="nameofimage"/>
+  <link rel="aplle-touch-icon" href="nameofimage"/>
+
+  NECESSERY META 
+  <meta name="description" content="blahblah"
+  <meta charset="utf-8" 
+  <meta name="author" content="blahblah"
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"
+  <meta name="keywords" content="blahblah"
+  to get  strong keywords https://rapidtags.io/generator
+
+TO DEFINE MEANING OF THE WORD 
+like this 
+<abbr title="how you doing">hyd </abbr>
+
+META FOR REPIOST ON Facebook
+<meta property="og:title" content="coder shiyar"/>
+<meta property="og:description" content="programming with xgfgbvbgbvhggv"/>
+<meta property="og:image" content="https://codershiyar.com/img/logo.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:type" content="website or article"/>
+u can try on sharing debugger
+
+ADD A DOANLOAD BUTTONS
+like this<a> href="nameoffile.png or .mp3 or .pdf" doanload=name of the content"> تحمبل<.a>
+
+Q ELEMENT
+<Q> hi </q> it shoxs like this "hi"
+
+CENTER ELEMENT 
+center> </center> to make the writing on the middle
+or u can do the same thing like this 
+<p style="text-aligne: center;"> hello </p>
+
+BLOCKQUOTE ELEMENT
+TO LEAVE SPACES AUTOMATICALLY UP ND DOWN RIGHT AND LEFT WITH A VALUE OF 40PX
+<BLOCKQUOTE cite="u write the source or the author of the quote"> the quote </BLOCKQUOTE>
+
+CONTENTEDITABLE IN elements
+u add this to elements if u want users to have the permission to edit wht u have wroten or disabled
+<h1 contenteditable="true or false" > hi </h1> this method usually is usefull to other langiages like javascript
+or things like this
+
+DIALOG ELEMENT
+u usually need it with javascript
+<button onclick="opendialog"> open </button>
+<dialog id="text" "u can add open here so it can shows automatically">
+<h1>walid </h1> <br>
+<img src="walid.png" />
+<button onclick="closedialog"> close</button>
+<script> function openDialog (){ document.getElementById("test").setAttribute("open","true");}
+ function closeDialog ( document.getElementById("test").removeAttribute("open");}</script>
+
+META FOR TWITTER
+<meta name="twitter:card" content"">
+<meta name="twitter:title" content"">
+<meta name="twitter:description" content"">
+<meta name="twitter:image" content"">
+not obligated
+<meta name="twitter:site" content"">
+<meta name="twitter:creator" content"">
+u can try it on
+card-dev.twitter.com
+
+MARQUEE element
+<MARQUEE BGCOLOR="#COLOR"
+ height="6315"
+ width="564"
+ behavior="slide or allternate or scroll"
+ direction="up or down  right left
+ loop="gdah mn khtra tat3awed
+ vspace="lhamch"
+ hspace="lhamech"
+ scrollamoun=" vitess with numbers"> u put the content here either inside an span or div element
+  hello and u can put imagrs also and u can add also an A element 
+ </Marquee>

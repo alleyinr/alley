@@ -1,0 +1,37 @@
+for html 
+LANGUAGE <HTML lang="ar or fr or en it depends on which language u gonna choose">
+
+direction of writing <html dir=" rtl for right to left" " left to right write ltr">
+
+to add arabic writing write inside HEAD  <meta charset="utf-8">
+
+ <!-- this meta is for the description  -->
+     <meta name="description" content="this our free learning tools, skills,books..."/>
+use <ul> if u wanna add pointings lines nd on every line add <il> 
+
+<i> diagonal
+<em> diagonal
+<sup> up
+<sub> text down
+<b>darker
+<ins> specify
+<del> cross off
+<mark>  mark with colors
+<small> make it samller
+<strong> important text
+<p> fot paragraphs
+<br> to start on a new line 
+code " &nbsp;" to much spaces between words on your paragraphs nd every &nbsp; is = 1 space
+
+<a> is for adding a ling image as button that can drives u to whtever uchoose like
+ <a href=" the link that u choose or the number u put in"> than here u write
+  the text likeclisck here to visiste our website than close it with </a>
+  u can add to ue <a> element and inside it after HREF target="_blank" than close ur opening
+   A element > things so the link will be opened on a new window
+   inside ur HREF u can put a name of file which can drive us to 
+   the file must be on ur code page as a diffrent window and on the same file like the exemple at
+    index.html
+    u can guide the visitor to ur email or aphone number or any eamil u want using (A) element like 
+    <a href="mailto:blahblahblah@gmail.com" > </a>
+    <a href="tel::06516454465" > </a>
+ 
